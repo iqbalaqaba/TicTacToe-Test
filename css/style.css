@@ -1,0 +1,136 @@
+/*******tic-tac-toe******/
+
+#tic-tac-toe .disable {
+    text-transform: uppercase;
+    font-size: 30px;
+    /*font-family: Georgia, "Times New Roman", Times, serif*/
+    font-family: arial, sans-serif;
+}
+
+#tic-tac-toe #game li {
+    float: left;
+    padding: 8px;
+    list-style: none;
+    margin: 0 auto;
+    /*text-align: center;*/
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    color: white;
+	cursor: pointer;
+	width: 50px;
+}
+
+#tic-tac-toe #game li.disable {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-left: 5px;
+}
+
+#tic-tac-toe #game {
+    float: left;
+    padding: 0;
+    clear: both;
+    margin-left: 10px;    
+}
+
+.new_span {
+    width: 226px
+}
+
+#tic-tac-toe #reset {
+    padding: 15px 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    clear: both;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    width: 204px;
+}
+
+.input-prepend span.pre_text {
+    width: 55px
+}
+
+.input-prepend .span1 {
+    width: 93px;
+}
+
+.input-prepend {
+    margin-bottom: 10px
+}
+
+.clr {
+    clear: both;
+    height: 0
+}
+
+#tic-tac-toe h1 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+#tic-tac-toe li::-moz-selection {
+    background: none;
+    color: white;
+}
+
+#tic-tac-toe li::-webkit-selection {
+    background: none;
+    color: white;
+}
+
+#tic-tac-toe {
+    width: 220px;
+    margin: 0 auto
+}
+
+.input-append .win_times {
+    /*background: #fff;*/
+    width: 101px;
+}
+
+.input-append .win_text {
+    width: 52px;
+    color: white;
+}
+
+/*new codes*/
+
+.add-on{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	background-color: transparent;
+	font-family: arial, sans-serif;
+}
+
+.span3{
+	text-align: center;
+	background-color: blue;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 80px;
+}
+
+.row{
+	margin: auto;
+}
+
+.btn-success{
+	background-color: green;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+/*******tic-tac-toe END******/
